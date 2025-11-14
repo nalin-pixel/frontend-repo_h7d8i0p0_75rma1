@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Gallery from './components/Gallery'
 import Classes from './components/Classes'
 import Contact from './components/Contact'
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <Gallery />
       <Classes />
       <Contact />
       <footer className="py-10 border-t border-neutral-800 text-center text-sm text-neutral-400">

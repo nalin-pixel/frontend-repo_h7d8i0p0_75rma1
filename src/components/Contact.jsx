@@ -28,8 +28,8 @@ export default function Contact(){
     <section id="contact" className="py-16 bg-black">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
         <div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-white">Mell dech bei DinoFitBox</h2>
-          <p className="text-neutral-400 mt-3">So eis wat s du sicht an mir starten dech mat engem 7-Deeg Test.</p>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-white">Kontaktéiert DinoFitBox</h2>
+          <p className="text-neutral-400 mt-3">Schreif eis eng Noriicht – mir hëllefen dir gären mat Memberschaft, Training a Coursen.</p>
           <div className="mt-6 p-6 rounded-2xl border border-neutral-800 bg-neutral-950">
             <p className="font-semibold text-white">Fann eis</p>
             <p className="text-neutral-400 text-sm mt-1">233 Rue de Beggen, 1221 Beggen, Lëtzebuerg</p>
@@ -65,7 +65,7 @@ export default function Contact(){
             </div>
           </div>
           <button disabled={status.state==='loading'} className="mt-4 w-full bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-3 rounded-xl">
-            {status.state==='loading' ? 'Gëtt geschéckt...' : 'Ufro fir 7-Deeg Test'}
+            {status.state==='loading' ? 'Gëtt geschéckt...' : 'Schéck Ufro'}
           </button>
           {status.state !== 'idle' && (
             <p className={`mt-3 text-sm ${status.state==='success' ? 'text-green-500' : status.state==='error' ? 'text-red-500' : 'text-neutral-400'}`}>

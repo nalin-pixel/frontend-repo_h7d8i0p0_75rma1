@@ -12,7 +12,7 @@ export default function Hero() {
           </p>
           <div className="mt-6 flex items-center space-x-4">
             <a href="#contact" className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl shadow">
-              Kréi 7-Deeg Test
+              Kontaktéieren
             </a>
             <a href="#classes" className="text-red-500 hover:text-red-400 font-semibold">
               Kuck Coursen

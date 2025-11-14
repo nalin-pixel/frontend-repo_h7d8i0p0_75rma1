@@ -13,6 +13,7 @@ export default function Navbar() {
   const navItems = [
     { id: 'home', label: 'Doheem' },
     { id: 'features', label: 'Ariichtungen' },
+    { id: 'gallery', label: 'Biller' },
     { id: 'classes', label: 'Coursen' },
     { id: 'contact', label: 'Kontakt' },
   ]
