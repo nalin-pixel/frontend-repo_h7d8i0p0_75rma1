@@ -3,27 +3,30 @@ export default function Hero() {
     <section id="home" className="pt-28 pb-16 bg-black">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-red-500 font-semibold">Luxembourg City • Kirchberg</p>
+          <p className="uppercase text-sm tracking-widest text-red-500 font-semibold">233 Rue de Beggen • 1221 Beggen • Lëtzebuerg</p>
           <h1 className="mt-3 text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
-            Strong. Simple. LuxFit.
+            Staark. Einfach. DinoFitBox.
           </h1>
           <p className="mt-5 text-neutral-300 text-lg">
-            No fluff. Just top equipment, expert coaches, and classes that work.
+            Keng Onnéidegkeet. Just Top-Equipement, Traineren op Héich-Niveau an Coursen déi wierklech wierken.
           </p>
           <div className="mt-6 flex items-center space-x-4">
             <a href="#contact" className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-xl shadow">
-              Get 7‑day trial
+              Kréi 7-Deeg Test
             </a>
             <a href="#classes" className="text-red-500 hover:text-red-400 font-semibold">
-              View classes
+              Kuck Coursen
             </a>
           </div>
           <div className="mt-6 flex items-center space-x-6 text-sm text-neutral-400">
             <div>
-              <span className="font-bold text-white">06:00–23:00</span> Mon–Sun
+              <span className="font-bold text-white">06:00–23:00</span> Mé–Son
             </div>
             <div>
-              <span className="font-bold text-white">Multilingual</span> EN • FR • DE • LU
+              <span className="font-bold text-white">Sproochen</span> LU • DE • FR • EN
+            </div>
+            <div>
+              <span className="font-bold text-white">Telefon</span> +352 691 611 355
             </div>
           </div>
         </div>

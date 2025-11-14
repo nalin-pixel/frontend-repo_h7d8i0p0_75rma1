@@ -11,10 +11,10 @@ export default function Navbar() {
   }
 
   const navItems = [
-    { id: 'home', label: 'Home' },
-    { id: 'features', label: 'Facilities' },
-    { id: 'classes', label: 'Classes' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'home', label: 'Doheem' },
+    { id: 'features', label: 'Ariichtungen' },
+    { id: 'classes', label: 'Coursen' },
+    { id: 'contact', label: 'Kontakt' },
   ]
 
   return (
@@ -26,7 +26,7 @@ export default function Navbar() {
             <span className="w-1/3 bg-black"></span>
             <span className="w-1/3 bg-red-600"></span>
           </div>
-          <span className="font-extrabold tracking-tight text-white">LuxFit</span>
+          <span className="font-extrabold tracking-tight text-white">DinoFitBox</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           {navItems.map(n => (
@@ -34,7 +34,7 @@ export default function Navbar() {
               {n.label}
             </button>
           ))}
-          <a href="#contact" onClick={(e)=>{e.preventDefault();scrollTo('contact')}} className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow">Join Now</a>
+          <a href="#contact" onClick={(e)=>{e.preventDefault();scrollTo('contact')}} className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow">Mell dech un</a>
         </nav>
         <button onClick={() => setOpen(!open)} className="md:hidden p-2 rounded hover:bg-neutral-900">
           <Menu className="w-6 h-6 text-white" />

@@ -14,8 +14,8 @@ function App() {
       <Contact />
       <footer className="py-10 border-t border-neutral-800 text-center text-sm text-neutral-400">
         <div className="max-w-6xl mx-auto px-4">
-          <p>© {new Date().getFullYear()} LuxFit Gym • Luxembourg</p>
-          <p className="mt-1">Privacy • Terms • Contact: hello@luxfit.lu</p>
+          <p>© {new Date().getFullYear()} DinoFitBox • 233 Rue de Beggen, 1221 Beggen, Lëtzebuerg</p>
+          <p className="mt-1">+352 691 611 355 • Privatsphär • Konditiounen</p>
         </div>
       </footer>
     </div>
