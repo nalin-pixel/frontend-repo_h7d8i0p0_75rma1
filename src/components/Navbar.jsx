@@ -18,32 +18,32 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-white/70 border-b border-white/30">
+    <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-black/70 border-b border-red-600/40">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded overflow-hidden flex">
-            <span className="w-1/3 bg-red-500"></span>
-            <span className="w-1/3 bg-white"></span>
-            <span className="w-1/3 bg-sky-400"></span>
+          <div className="w-8 h-8 rounded overflow-hidden flex ring-1 ring-red-600/50">
+            <span className="w-1/3 bg-red-600"></span>
+            <span className="w-1/3 bg-black"></span>
+            <span className="w-1/3 bg-red-600"></span>
           </div>
-          <span className="font-extrabold tracking-tight text-gray-900">LuxFit</span>
+          <span className="font-extrabold tracking-tight text-white">LuxFit</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           {navItems.map(n => (
-            <button key={n.id} onClick={() => scrollTo(n.id)} className="text-gray-700 hover:text-sky-600 transition-colors">
+            <button key={n.id} onClick={() => scrollTo(n.id)} className="text-neutral-300 hover:text-red-500 transition-colors">
               {n.label}
             </button>
           ))}
-          <a href="#contact" onClick={(e)=>{e.preventDefault();scrollTo('contact')}} className="bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-lg shadow">Join Now</a>
+          <a href="#contact" onClick={(e)=>{e.preventDefault();scrollTo('contact')}} className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow">Join Now</a>
         </nav>
-        <button onClick={() => setOpen(!open)} className="md:hidden p-2 rounded hover:bg-gray-100">
-          <Menu className="w-6 h-6" />
+        <button onClick={() => setOpen(!open)} className="md:hidden p-2 rounded hover:bg-neutral-900">
+          <Menu className="w-6 h-6 text-white" />
         </button>
       </div>
       {open && (
-        <div className="md:hidden border-t bg-white">
+        <div className="md:hidden border-t border-neutral-800 bg-black">
           {navItems.map(n => (
-            <button key={n.id} onClick={() => scrollTo(n.id)} className="block w-full text-left px-4 py-3 hover:bg-gray-50">
+            <button key={n.id} onClick={() => scrollTo(n.id)} className="block w-full text-left px-4 py-3 hover:bg-neutral-900 text-neutral-200">
               {n.label}
             </button>
           ))}
